@@ -1,0 +1,221 @@
+.portal-page {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.portal-page .main-nav {
+  position: relative;
+  background: var(--color-sand);
+  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  padding: var(--space-4) var(--space-6);
+}
+
+.portal-page .nav-brand {
+  color: var(--color-eucalyptus);
+}
+
+.portal-page .nav-link {
+  color: var(--color-text-primary);
+}
+
+.portal-page .nav-cta {
+  border-color: var(--color-eucalyptus);
+  color: var(--color-eucalyptus);
+}
+
+.portal-page .nav-cta:hover {
+  background-color: var(--color-eucalyptus);
+  color: var(--color-white);
+}
+
+.portal-page .mobile-menu-btn span {
+  background: var(--color-eucalyptus);
+}
+
+.page-header {
+  padding: var(--space-12) var(--space-6) var(--space-6);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-section {
+  padding: 0 var(--space-6) var(--space-12);
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  max-width: 800px;
+  width: 100%;
+  background: var(--color-white);
+  padding: var(--space-6);
+  border: 1px solid rgba(79, 93, 83, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    padding: var(--space-8);
+  }
+}
+
+.form-info {
+  margin-bottom: var(--space-8);
+  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  padding-bottom: var(--space-6);
+}
+
+.form-info h2 {
+  color: var(--color-eucalyptus);
+  margin-bottom: var(--space-3);
+  font-size: 2rem;
+}
+
+.form-info p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.consultation-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-5);
+}
+
+@media (min-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+label {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text-primary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+input, textarea {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  padding: var(--space-3);
+  border: 1px solid rgba(79, 93, 83, 0.2);
+  background-color: var(--color-sand);
+  color: var(--color-text-primary);
+  transition: all var(--transition-fast);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--color-eucalyptus);
+  background-color: var(--color-white);
+  box-shadow: 0 0 0 2px rgba(79, 93, 83, 0.1);
+}
+
+.photo-uploads {
+  margin-top: var(--space-4);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(79, 93, 83, 0.1);
+}
+
+.photo-uploads h3 {
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-1);
+  font-size: 1.25rem;
+}
+
+.upload-help {
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: var(--space-4);
+}
+
+.upload-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 600px) {
+  .upload-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.upload-box {
+  position: relative;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-6);
+  border: 2px dashed rgba(79, 93, 83, 0.3);
+  background-color: var(--color-sand);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: center;
+}
+
+.upload-label:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-copper);
+}
+
+.upload-icon {
+  font-size: 2rem;
+  color: var(--color-copper);
+  font-weight: 300;
+}
+
+.upload-sub {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  text-transform: none;
+}
+
+.submit-btn {
+  margin-top: var(--space-6);
+  width: 100%;
+  padding: var(--space-4);
+  background-color: var(--color-eucalyptus);
+  color: var(--color-white);
+  border: 1px solid var(--color-eucalyptus);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: var(--color-eucalyptus-dark);
+}

@@ -1,0 +1,35 @@
+.floating-button-container {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--space-4);
+  background: linear-gradient(to top, rgba(245, 242, 237, 1) 40%, rgba(245, 242, 237, 0));
+  z-index: 90;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .floating-button-container {
+    display: block;
+  }
+}
+
+.floating-btn {
+  display: block;
+  background-color: var(--color-copper);
+  color: var(--color-white);
+  padding: var(--space-3) var(--space-4);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--color-copper);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 15px rgba(184, 115, 51, 0.3);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}

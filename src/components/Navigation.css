@@ -1,0 +1,129 @@
+.main-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: var(--space-4) var(--space-6);
+  background: transparent;
+  transition: background var(--transition-normal);
+}
+
+.main-nav.scrolled {
+  position: fixed;
+  background: rgba(245, 242, 237, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  padding: var(--space-3) var(--space-6);
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--color-white);
+  letter-spacing: 1px;
+}
+
+.main-nav.scrolled .nav-brand {
+  color: var(--color-eucalyptus);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  position: relative;
+}
+
+.main-nav.scrolled .nav-link {
+  color: var(--color-text-primary);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-copper);
+  transition: width var(--transition-fast);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-cta {
+  background: var(--color-copper);
+  color: var(--color-white);
+  padding: var(--space-2) var(--space-4);
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  transition: all var(--transition-normal);
+}
+
+.nav-cta:hover {
+  background-color: var(--color-white);
+  color: var(--color-eucalyptus);
+}
+
+.main-nav.scrolled .nav-cta {
+  border-color: var(--color-eucalyptus);
+  color: var(--color-eucalyptus);
+}
+
+.main-nav.scrolled .nav-cta:hover {
+  background-color: var(--color-eucalyptus);
+  color: var(--color-white);
+}
+
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mobile-menu-btn span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: var(--color-white);
+  transition: transform var(--transition-fast);
+}
+
+.main-nav.scrolled .mobile-menu-btn span {
+  background: var(--color-eucalyptus);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: flex;
+  }
+  
+  .main-nav {
+    padding: var(--space-4);
+  }
+}

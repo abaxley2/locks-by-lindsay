@@ -1,0 +1,218 @@
+.contact-page {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.contact-page .main-nav {
+  position: relative;
+  background: var(--color-sand);
+  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  padding: var(--space-4) var(--space-6);
+}
+
+.contact-page .nav-brand {
+  color: var(--color-eucalyptus);
+}
+
+.contact-page .nav-link {
+  color: var(--color-text-primary);
+}
+
+.contact-page .nav-cta {
+  border-color: var(--color-eucalyptus);
+  color: var(--color-eucalyptus);
+}
+
+.contact-page .nav-cta:hover {
+  background-color: var(--color-eucalyptus);
+  color: var(--color-white);
+}
+
+.contact-page .mobile-menu-btn span {
+  background: var(--color-eucalyptus);
+}
+
+.page-header {
+  padding: var(--space-12) var(--space-6) var(--space-6);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  padding: 0 var(--space-6) var(--space-12);
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
+
+@media (min-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.booking-widget {
+  background: var(--color-white);
+  padding: var(--space-6);
+  border: 1px solid rgba(79, 93, 83, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .booking-widget {
+    padding: var(--space-8);
+  }
+}
+
+.booking-widget h2, .booking-widget h3 {
+  color: var(--color-eucalyptus);
+  margin-bottom: var(--space-3);
+}
+
+.booking-widget p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+}
+
+.mt-8 {
+  margin-top: var(--space-8);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(79, 93, 83, 0.1);
+}
+
+.mb-4 {
+  margin-bottom: var(--space-4) !important;
+}
+
+.dark-btn {
+  display: block;
+  text-align: center;
+  background-color: var(--color-eucalyptus);
+  color: var(--color-white) !important;
+  border-color: var(--color-eucalyptus) !important;
+}
+
+.dark-btn:hover {
+  background-color: transparent;
+  color: var(--color-eucalyptus) !important;
+}
+
+.calendar-placeholder {
+  width: 100%;
+  min-height: 400px;
+  background-color: var(--color-sand);
+  border: 2px dashed rgba(79, 93, 83, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.placeholder-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+
+.calendar-icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-2);
+}
+
+.studio-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.info-card {
+  background: var(--color-eucalyptus);
+  color: var(--color-sand);
+  padding: var(--space-6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .info-card {
+    padding: var(--space-8);
+  }
+}
+
+.info-card h3, .info-card h4 {
+  color: var(--color-copper);
+  font-family: var(--font-serif);
+  margin-bottom: var(--space-4);
+}
+
+.info-card address {
+  font-family: var(--font-sans);
+  font-style: normal;
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+  font-size: 1.05rem;
+}
+
+.contact-details p {
+  margin-bottom: var(--space-2);
+  color: var(--color-sand);
+}
+
+.contact-details a {
+  transition: color var(--transition-fast);
+}
+
+.contact-details a:hover {
+  color: var(--color-copper);
+}
+
+.hours {
+  margin-top: var(--space-6);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(245, 242, 237, 0.2);
+}
+
+.hours ul {
+  list-style: none;
+}
+
+.hours li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+  font-size: 0.95rem;
+}
+
+.hours span {
+  font-weight: 600;
+}
+
+.map-container {
+  flex-grow: 1;
+  min-height: 300px;
+}
+
+.map-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-sand-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}

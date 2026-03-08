@@ -1,0 +1,114 @@
+.reviews-section {
+  padding: var(--space-12) var(--space-6);
+  background-color: var(--color-sand);
+  text-align: center;
+}
+
+.reviews-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reviews-heading {
+  font-size: 2.5rem;
+  color: var(--color-eucalyptus);
+  margin-bottom: var(--space-8);
+}
+
+.slider-viewport {
+  position: relative;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-slow);
+}
+
+.review-slide.active {
+  opacity: 1;
+  pointer-events: auto;
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.quote-mark {
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  color: var(--color-copper);
+  line-height: 1;
+  margin-bottom: calc(var(--space-4) * -1);
+  opacity: 0.5;
+}
+
+.review-text {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .review-text {
+    font-size: 1.5rem;
+  }
+}
+
+.review-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.review-author {
+  font-weight: 600;
+  color: var(--color-text-primary);
+  font-size: 0.9rem;
+}
+
+.review-service {
+  color: var(--color-copper);
+  font-size: 0.8rem;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(79, 93, 83, 0.3);
+  padding: 0;
+  transition: all var(--transition-fast);
+}
+
+.dot:hover {
+  background-color: rgba(79, 93, 83, 0.6);
+}
+
+.dot.active {
+  background-color: var(--color-eucalyptus);
+  transform: scale(1.2);
+}
