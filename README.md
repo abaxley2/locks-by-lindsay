@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Locks By Lindsay
 
-## Getting Started
+> **The Lived-in Color & Extension Authority for Bartow County.**
 
-First, run the development server:
+A high-conversion, editorial-style web platform designed for Locks By Lindsay, a specialist hair studio. This application is built with an "Organic Sophistication" aesthetic, focusing on an elegant user experience, local SEO optimization, and seamless booking integration.
 
+## 🌟 Key Features
+
+- **Result-Oriented Investment Menu:** Transparent and beautifully structured pricing tailored for lived-in color and extensions.
+- **New Client Portal:** A dedicated onboarding flow featuring a full digital consultation form.
+- **Floating Booking Integration:** A persistent, high-visibility floating reserve button optimized for conversions.
+- **Social Proof:** Live Instagram feed integration and a dynamic client review slider.
+- **SEO-Optimized:** Mobile-first architecture with robust JSON-LD schema implementation for local SEO dominance.
+
+## 🚀 Technical Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Styling:** Custom Vanilla CSS for maximum flexibility, creating a bespoke, premium aesthetic.
+- **Typography:** Highly tailored, sophisticated editorial font pairings.
+
+## 💻 Getting Started
+
+First, install the dependencies if you haven't already:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to launch the web platform locally. The page will automatically hot-reload as you safely modify components and styles.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Core Project Architecture
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/`: Core Next.js routing, page structures, and global stylesheets.
+  - `/investment`: Service and pricing tiers
+  - `/lookbook`: Portfolio presentation
+  - `/client-portal`: Guided new client intake
+  - `/contact`: Location and direct inquiry
+- `src/components/`: Primary UI building blocks (FloatingReserveButton, TrustBar, InstagramFeed, ReviewSlider, etc.)
