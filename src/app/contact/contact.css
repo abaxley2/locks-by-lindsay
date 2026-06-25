@@ -6,12 +6,12 @@
 .contact-page .main-nav {
   position: relative;
   background: var(--color-sand);
-  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  border-bottom: 1px solid rgba(107, 79, 92, 0.1);
   padding: var(--space-4) var(--space-6);
 }
 
 .contact-page .nav-brand {
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
 }
 
 .contact-page .nav-link {
@@ -19,17 +19,41 @@
 }
 
 .contact-page .nav-cta {
-  border-color: var(--color-eucalyptus);
-  color: var(--color-eucalyptus);
+  border-color: var(--color-mauve);
+  color: var(--color-mauve);
 }
 
 .contact-page .nav-cta:hover {
-  background-color: var(--color-eucalyptus);
+  background-color: var(--color-mauve);
   color: var(--color-white);
 }
 
 .contact-page .mobile-menu-btn span {
-  background: var(--color-eucalyptus);
+  background: var(--color-mauve);
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-page .main-nav {
+    background: rgba(26, 17, 24, 0.97);
+    border-bottom-color: rgba(245, 242, 237, 0.08);
+  }
+  .contact-page .nav-brand {
+    color: var(--color-sand);
+  }
+  .contact-page .nav-link {
+    color: var(--color-sand);
+  }
+  .contact-page .nav-cta {
+    border-color: var(--color-mauve-light);
+    color: var(--color-mauve-light);
+  }
+  .contact-page .nav-cta:hover {
+    background-color: var(--color-mauve);
+    color: var(--color-white);
+  }
+  .contact-page .mobile-menu-btn span {
+    background: var(--color-sand);
+  }
 }
 
 .page-header {
@@ -62,7 +86,7 @@
 .booking-widget {
   background: var(--color-white);
   padding: var(--space-6);
-  border: 1px solid rgba(79, 93, 83, 0.1);
+  border: 1px solid rgba(107, 79, 92, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
@@ -73,7 +97,7 @@
 }
 
 .booking-widget h2, .booking-widget h3 {
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
   margin-bottom: var(--space-3);
 }
 
@@ -87,7 +111,7 @@
 .mt-8 {
   margin-top: var(--space-8);
   padding-top: var(--space-6);
-  border-top: 1px solid rgba(79, 93, 83, 0.1);
+  border-top: 1px solid rgba(107, 79, 92, 0.1);
 }
 
 .mb-4 {
@@ -97,21 +121,21 @@
 .dark-btn {
   display: block;
   text-align: center;
-  background-color: var(--color-eucalyptus);
+  background-color: var(--color-mauve);
   color: var(--color-white) !important;
-  border-color: var(--color-eucalyptus) !important;
+  border-color: var(--color-mauve) !important;
 }
 
 .dark-btn:hover {
   background-color: transparent;
-  color: var(--color-eucalyptus) !important;
+  color: var(--color-mauve) !important;
 }
 
 .calendar-placeholder {
   width: 100%;
   min-height: 400px;
   background-color: var(--color-sand);
-  border: 2px dashed rgba(79, 93, 83, 0.3);
+  border: 2px dashed rgba(107, 79, 92, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +162,7 @@
 }
 
 .info-card {
-  background: var(--color-eucalyptus);
+  background: var(--color-mauve);
   color: var(--color-sand);
   padding: var(--space-6);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);

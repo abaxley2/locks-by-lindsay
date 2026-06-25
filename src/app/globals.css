@@ -1,8 +1,8 @@
 :root {
-  /* Color Palette */
-  --color-eucalyptus: #4F5D53;
-  --color-eucalyptus-dark: #3a453d;
-  --color-eucalyptus-light: #728277;
+  /* Color Palette — Dusty Mauve & Warm Sand */
+  --color-mauve: #6B4F5C;
+  --color-mauve-dark: #503A45;
+  --color-mauve-light: #8E6E7D;
   --color-sand: #F5F2ED;
   --color-sand-dark: #e6e0d4;
   --color-copper: #B87333;
@@ -44,7 +44,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121212;
+    --background: #1a1118;
     --foreground: var(--color-sand);
     --color-text-primary: var(--color-sand);
     --color-text-secondary: #a0a0a0;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: var(--space-4);
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
 }
 
 @media (prefers-color-scheme: dark) {

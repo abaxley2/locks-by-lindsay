@@ -6,50 +6,50 @@ const journeys = [
   {
     id: 1,
     title: "The Signature Transformation",
-    price: "$375+",
-    description: "The ultimate overhaul for a completely new look.",
+    price: "$285+",
+    description: "The ultimate overhaul for a completely new look. Full custom blonding, dimension, or dramatic color shift.",
     includes: [
-      "Full custom blonding or dimension",
-      "Bond-builder treatment",
-      "Mineral-removing detox",
-      "Designer haircut & signature styling"
+      "Full custom balayage or highlights",
+      "Bond-builder treatment (Olaplex or K18)",
+      "Mineral-removing detox for Bartow County water",
+      "Designer haircut & signature blowout styling"
     ]
   },
   {
     id: 2,
     title: "The Lived-In Refresh",
-    price: "$245+",
-    description: "Maintain your seamless color with a targeted touch-up.",
+    price: "$165+",
+    description: "Maintain your seamless color with a targeted touch-up that keeps your look fresh between full services.",
     includes: [
-      "Partial dimensionality",
-      "Root smudge & gloss",
-      "Deep moisture mask",
-      "Signature blowout"
+      "Partial balayage or dimensional highlights",
+      "Root smudge & toning gloss",
+      "Deep moisture mask treatment",
+      "Signature blowout & style"
     ]
   },
   {
     id: 3,
     title: "The Crown & Volume Extension Suite",
-    price: "$275+ install",
-    description: "Instant length and volume customized perfectly to your natural hair.",
+    price: "$500+ (hair included)",
+    description: "Instant length and volume using hand-tied wefts or tape-ins, customized to your natural hair.",
     includes: [
-      "Custom color matching",
-      "Precision installation",
-      "Blending haircut",
-      "Complimentary Aftercare Kit"
+      "Complimentary consultation & color match",
+      "Premium human hair (tape-in or hand-tied weft)",
+      "Precision installation & blending cut",
+      "Aftercare kit + move-up scheduling"
     ],
     highlight: true
   },
   {
     id: 4,
     title: "The Cartersville Detox",
-    price: "$125",
-    description: "Combat local hard water and restore your hair's natural brilliance.",
+    price: "$95",
+    description: "Combat Bartow County's hard water mineral buildup and restore your hair's natural brilliance.",
     includes: [
       "Medical-grade chelating treatment",
-      "Removal of local mineral buildup",
-      "High-shine gloss finish",
-      "Hydrating treatment"
+      "Targeted removal of local mineral & chlorine buildup",
+      "High-shine toning gloss finish",
+      "Hydrating conditioning treatment"
     ]
   }
 ];

@@ -13,7 +13,7 @@
   position: fixed;
   background: rgba(245, 242, 237, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  border-bottom: 1px solid rgba(107, 79, 92, 0.1);
   padding: var(--space-3) var(--space-6);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .main-nav.scrolled .nav-brand {
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
 }
 
 .nav-links {
@@ -83,16 +83,16 @@
 
 .nav-cta:hover {
   background-color: var(--color-white);
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
 }
 
 .main-nav.scrolled .nav-cta {
-  border-color: var(--color-eucalyptus);
-  color: var(--color-eucalyptus);
+  border-color: var(--color-mauve);
+  color: var(--color-mauve);
 }
 
 .main-nav.scrolled .nav-cta:hover {
-  background-color: var(--color-eucalyptus);
+  background-color: var(--color-mauve);
   color: var(--color-white);
 }
 
@@ -111,7 +111,7 @@
 }
 
 .main-nav.scrolled .mobile-menu-btn span {
-  background: var(--color-eucalyptus);
+  background: var(--color-mauve);
 }
 
 @media (max-width: 768px) {

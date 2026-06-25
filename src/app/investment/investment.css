@@ -6,12 +6,12 @@
 .investment-page .main-nav {
   position: relative;
   background: var(--color-sand);
-  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  border-bottom: 1px solid rgba(107, 79, 92, 0.1);
   padding: var(--space-4) var(--space-6);
 }
 
 .investment-page .nav-brand {
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
 }
 
 .investment-page .nav-link {
@@ -19,17 +19,41 @@
 }
 
 .investment-page .nav-cta {
-  border-color: var(--color-eucalyptus);
-  color: var(--color-eucalyptus);
+  border-color: var(--color-mauve);
+  color: var(--color-mauve);
 }
 
 .investment-page .nav-cta:hover {
-  background-color: var(--color-eucalyptus);
+  background-color: var(--color-mauve);
   color: var(--color-white);
 }
 
 .investment-page .mobile-menu-btn span {
-  background: var(--color-eucalyptus);
+  background: var(--color-mauve);
+}
+
+@media (prefers-color-scheme: dark) {
+  .investment-page .main-nav {
+    background: rgba(26, 17, 24, 0.97);
+    border-bottom-color: rgba(245, 242, 237, 0.08);
+  }
+  .investment-page .nav-brand {
+    color: var(--color-sand);
+  }
+  .investment-page .nav-link {
+    color: var(--color-sand);
+  }
+  .investment-page .nav-cta {
+    border-color: var(--color-mauve-light);
+    color: var(--color-mauve-light);
+  }
+  .investment-page .nav-cta:hover {
+    background-color: var(--color-mauve);
+    color: var(--color-white);
+  }
+  .investment-page .mobile-menu-btn span {
+    background: var(--color-sand);
+  }
 }
 
 .journeys-section {
@@ -53,7 +77,7 @@
 
 .journey-card {
   background: var(--color-white);
-  border: 1px solid rgba(79, 93, 83, 0.15);
+  border: 1px solid rgba(107, 79, 92, 0.15);
   padding: var(--space-6);
   display: flex;
   flex-direction: column;
@@ -90,7 +114,7 @@
 .card-header h2 {
   font-size: 1.5rem;
   margin-bottom: var(--space-2);
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
 }
 
 .price {
@@ -100,7 +124,7 @@
   font-weight: 300;
   color: var(--color-text-primary);
   margin-bottom: var(--space-4);
-  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  border-bottom: 1px solid rgba(107, 79, 92, 0.1);
   padding-bottom: var(--space-4);
 }
 
@@ -135,19 +159,19 @@
   display: block;
   text-align: center;
   background-color: transparent;
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
   padding: var(--space-3) var(--space-4);
   font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.9rem;
-  border: 1px solid var(--color-eucalyptus);
+  border: 1px solid var(--color-mauve);
   transition: all var(--transition-normal);
   width: 100%;
 }
 
 .btn-outline:hover {
-  background-color: var(--color-eucalyptus);
+  background-color: var(--color-mauve);
   color: var(--color-white);
 }
 

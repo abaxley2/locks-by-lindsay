@@ -11,7 +11,7 @@
 
 .reviews-heading {
   font-size: 2.5rem;
-  color: var(--color-eucalyptus);
+  color: var(--color-mauve);
   margin-bottom: var(--space-8);
 }
 
@@ -99,16 +99,16 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: rgba(79, 93, 83, 0.3);
+  background-color: rgba(107, 79, 92, 0.3);
   padding: 0;
   transition: all var(--transition-fast);
 }
 
 .dot:hover {
-  background-color: rgba(79, 93, 83, 0.6);
+  background-color: rgba(107, 79, 92, 0.6);
 }
 
 .dot.active {
-  background-color: var(--color-eucalyptus);
+  background-color: var(--color-mauve);
   transform: scale(1.2);
 }

@@ -7,12 +7,12 @@ import './lookbook.css';
 const categories = ["All", "Blondes", "Brunettes", "Extensions", "Curly"];
 
 const lookbookData = [
-  { id: 1, category: "Blondes", image: "https://images.unsplash.com/photo-1615818469622-281b898beab0?auto=format&fit=crop&q=80&w=800", alt: "Bright dimensional blonde" },
-  { id: 2, category: "Brunettes", image: "https://images.unsplash.com/photo-1595476108010-b4d1f10cfd14?auto=format&fit=crop&q=80&w=800", alt: "Rich lived-in brunette" },
-  { id: 3, category: "Extensions", image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=800", alt: "22 inch volume extensions" },
-  { id: 4, category: "Blondes", image: "https://images.unsplash.com/photo-1620331309855-6b5eaef3b310?auto=format&fit=crop&q=80&w=800", alt: "Root smudge blonde" },
-  { id: 5, category: "Curly", image: "https://images.unsplash.com/photo-1531123414708-bb30aa074fce?auto=format&fit=crop&q=80&w=800", alt: "Natural curly cut and color" },
-  { id: 6, category: "Brunettes", image: "https://images.unsplash.com/photo-1605497788044-5a32c707d2f6?auto=format&fit=crop&q=80&w=800", alt: "Mocha balayage" },
+  { id: 1, category: "Blondes", image: "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?auto=format&fit=crop&q=80&w=800", alt: "Bright dimensional blonde balayage" },
+  { id: 2, category: "Brunettes", image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800", alt: "Rich lived-in brunette color" },
+  { id: 3, category: "Extensions", image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=800", alt: "Hand-tied weft volume extensions" },
+  { id: 4, category: "Blondes", image: "https://images.unsplash.com/photo-1553798987-3b4f29c0d7b4?auto=format&fit=crop&q=80&w=800", alt: "Seamless root smudge blonde" },
+  { id: 5, category: "Curly", image: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&q=80&w=800", alt: "Natural curly cut and color" },
+  { id: 6, category: "Brunettes", image: "https://images.unsplash.com/photo-1618354691229-88d47f285158?auto=format&fit=crop&q=80&w=800", alt: "Mocha balayage brunette" },
 ];
 
 export default function Lookbook() {

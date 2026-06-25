@@ -2,8 +2,8 @@
   background-color: var(--color-sand-dark);
   padding: var(--space-4);
   text-align: center;
-  border-top: 1px solid rgba(79, 93, 83, 0.1);
-  border-bottom: 1px solid rgba(79, 93, 83, 0.1);
+  border-top: 1px solid rgba(107, 79, 92, 0.1);
+  border-bottom: 1px solid rgba(107, 79, 92, 0.1);
 }
 
 .trust-content {
