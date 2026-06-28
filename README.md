@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✂️ Locks By Lindsay
+# Locks By Lindsay
 
 ### *The Lived-in Color & Extension Authority for Bartow County*
 
@@ -18,20 +18,20 @@ built with an *Organic Sophistication* aesthetic that prioritizes premium UX, lo
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 💅 **Investment Menu** | Transparent, beautifully structured pricing for lived-in color & extensions |
-| 🪄 **New Client Portal** | Dedicated onboarding flow with a full digital consultation form |
-| 📌 **Floating Reserve Button** | Persistent, high-visibility CTA optimized for conversions |
-| ⭐ **Social Proof** | Live Instagram feed integration & dynamic client review slider |
-| 🗺️ **Local SEO** | Mobile-first with JSON-LD schema markup for Bartow County dominance |
-| 📖 **The Guide** | Editorial content hub for client education and trust-building |
+| **Investment Menu** | Transparent, beautifully structured pricing for lived-in color & extensions |
+| **New Client Portal** | Dedicated onboarding flow with a full digital consultation form |
+| **Floating Reserve Button** | Persistent, high-visibility CTA optimized for conversions |
+| **Social Proof** | Live Instagram feed integration & dynamic client review slider |
+| **Local SEO** | Mobile-first with JSON-LD schema markup for Bartow County dominance |
+| **The Guide** | Editorial content hub for client education and trust-building |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -45,7 +45,7 @@ built with an *Organic Sophistication* aesthetic that prioritizes premium UX, lo
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 src/
@@ -68,7 +68,7 @@ src/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **1. Install dependencies**
 ```bash
@@ -84,6 +84,8 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) — the app hot-reloads as you make changes.
 
+> Note: If port 3000 is already in use, Next.js will automatically use the next available port (e.g. 3001, 3002). Check the terminal output for the exact URL.
+
 ### Other Commands
 
 ```bash
@@ -94,7 +96,7 @@ npm run lint    # Run ESLint
 
 ---
 
-## 📍 About
+## About
 
 **Locks By Lindsay** is a specialist hair studio serving Cartersville, GA and the greater Bartow County area — ZIP codes 30120, 30121, and 30137. This platform was purpose-built to reflect the studio's identity: editorial, elevated, and results-focused.
 
