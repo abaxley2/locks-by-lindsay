@@ -4,7 +4,7 @@
 
 ### *The Lived-in Color & Extension Authority for Bartow County*
 
-**[🌍 View Live Site](https://abaxley2.github.io/locks-by-lindsay)**
+**[View Live Site](https://abaxley2.github.io/locks-by-lindsay)**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
